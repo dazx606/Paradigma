@@ -1,0 +1,95 @@
+.row:hover {
+    background-color: rgb(124, 139, 139);
+    cursor: pointer;
+}
+
+
+.table {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cardContainer {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0.3em;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.image {
+    height: 50px;
+    width: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.cardTittle {
+    font-size: 2em;
+
+}
+
+.closeBtn {
+    cursor: pointer;
+    color: red;
+    align-self: flex-end;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.moves {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100px;
+}
+
+.videoComp {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+ul{
+    list-style: none;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.editContainer {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 6em;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.leftForm{
+    display: flex;
+    flex-direction: column;
+}
